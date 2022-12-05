@@ -1,0 +1,10 @@
+echo "hello" > demo_u_r.txt
+echo "hello" > demo_2.txt
+ls -l
+chmod g+w demo_2.txt
+ls -l
+chmod o+x demo_2.txt
+ls -l
+chmod -w demo_2.txt
+ls -l
+chmod g-w demo_2.txt

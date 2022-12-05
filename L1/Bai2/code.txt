@@ -1,0 +1,22 @@
+# Version 1: 
+612  echo "data month 10" > data_3_202210.txt
+  613  echo "data month 12" > data_1_202212.txt
+  614  echo "data month 12" > data_2_202212.txt
+  615  echo "data month 12" > data_3_202212.txt
+  616  cp -h
+  617  ls
+  618  ls
+  619  cp data/data_3_202212.txt backup/data_3_202212.txt
+  620  cp data/data_3_202212.txt backup/backup_202212/data_3_202212.txt
+  621  ls backup/backup_202212
+  622  ls
+  623  ls -l backup/backup_202212
+  624  chmod -h
+  625  chmod -w backup/backup_202212/data_3_202212.txt
+  626  ls -l backup/backup_202212
+  627  rm data/data_3_202212.txt
+
+# Version 2:
+629  for files in data/*202210.txt;\ndo cp "$files" backup/backup_202212; done
+  630  for files in data/*202211.txt;\ndo cp "$files" backup/backup_202211; done
+  631  for files in data/*202210.txt;\ndo cp "$files" backup/backup_202210; done
