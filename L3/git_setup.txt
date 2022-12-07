@@ -1,0 +1,19 @@
+   46  ssh-keygen -t ed25519 -C "khoanguyen1507vn@gmail.com"
+   47  eval "$(ssh-agent -s)"
+   48  ssh-add ~/.ssh/id_ed25519
+   49  cat ~/.ssh/id_ed25519.pub
+   50  git push 
+   51  cat ~/.ssh/id_ed25519.pub
+   52  ssh -T git@github.com
+   53  git push 
+   54  git clone https://github.com/Winnguyen1511/BK1.DevOpsonline.git
+   55  git checkout .
+   56  git push
+   57  git remote add origin https://github.com/Winnguyen1511/BK1.DevOpsonline.git
+   58  git remote -v
+   59  git remote set-url origin https://github.com/Winnguyen1511/BK1.DevOpsonline.git
+   60  git push
+   61  git remote set-url origin git@github.com:Winnguyen1511/BK1.DevOpsonline.git
+   62  git push
+   63  history
+
