@@ -1,0 +1,46 @@
+1  exit
+    2  docker ps
+    3  exit
+    4  docker ps
+    5  docker container ls
+    6  docker ps
+    7  docker run -d nginx
+    8  docker ps
+    9  docker run -d -p 8080:80 nginx
+   10  docker ps
+   11  docker run -d -p 3000:80 nginx
+   12  docker ps
+   13  docker run -d -p 8090:80 -p 9090:80 nginx
+   14  docker ps
+   15  clear 
+   16  docker ps
+   17  clear
+   18  docker ps
+   19  docker stop laughing_bardeen
+   20  docker ps
+   21  docker stop wonderful_einstein
+   22  docker stop
+   23  docker ps
+   24  docker rm --help
+   25  docker rm wonderful_einstein
+   26  docker ps 
+   27  docker rm great_hofstadter
+   28  docker rm -f great_hofstadter
+   29  docker ps
+   30  docker ps -a
+   31  docker ps --all
+   32  clear
+   33  docker ps -a
+   34  docker rm laughing_bardeen
+   35  docker ps -a
+   36  docker ps --help
+   37  docker ps -aq
+   38  docker rm $(docker ps -aq)
+   39  docker ps
+   40  docker run --name default_web -d -p 8080:80 nginx:latest
+   41  docker ps
+   42  docker run --name default_web -d -p 8080:80 nginx:latest
+   43  docker rm -f blissful_pascal
+   44  docker rm -f focused_archimedes
+   45  docker ps -a
+   46  history
