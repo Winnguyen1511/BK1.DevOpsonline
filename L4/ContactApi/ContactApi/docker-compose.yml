@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  contactapi:
+    container_name: contactapi-dev
+    image: ${DOCKER_REGISTRY-}contactapi:latest
+    ports:
+      - "59370:443"
+    build:
+      context: .
+      dockerfile: ContactApi/Dockerfile
+  postgres-compose:
+    container_name: postgres-dev
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_USER=postgres
+    volumes: 
+      - db:/var/lib/postgresql/data
+      - E:\DayThem\Code\BK1.DevOpsonline\L4\ContactApi\ContactApi\ContactApi\DBScripts/init.sql:/docker-entrypoint-initdb.d/create_tables.sql
+    ports:
+      - "2345:5432"
+volumes:
+  db:
+    name: vol_contact_db
+    driver: local
