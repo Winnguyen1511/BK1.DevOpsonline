@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  test-s3volume:
+    container_name: test-s3volume
+    image: test-s3volume-image:build
+    build:
+      dockerfile: Dockerfile
+    cap_add:
+      - SYS_ADMIN
+    devices:
+      - /dev/fuse
