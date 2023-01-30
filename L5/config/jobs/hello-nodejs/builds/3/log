@@ -1,0 +1,19 @@
+Started by GitHub push by Winnguyen1511
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/hello-nodejs
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/hello-nodejs/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Winnguyen1511/hello-nodejs.git # timeout=10
+Fetching upstream changes from https://github.com/Winnguyen1511/hello-nodejs.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/Winnguyen1511/hello-nodejs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ecd0fbb6e396af4e1bcf9f25f52c57fc61aa62c2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ecd0fbb6e396af4e1bcf9f25f52c57fc61aa62c2 # timeout=10
+Commit message: "change api"
+ > git rev-list --no-walk 20c91709530dbedba90d38d8c2b770a65e20891d # timeout=10
+Finished: SUCCESS

@@ -1,0 +1,20 @@
+commit 7cd7f3a62d5080e9cdd2a43026105d2937586afa
+tree 2bf7003e69e42c02a9d0db3a2daa2d0ca83a9b5a
+parent 14f77ac8b94dd3732aba9a8ac49c2489bbb066c8
+author khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-09 21:03:39 +0700
+committer khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-09 21:03:39 +0700
+
+    add checkout
+
+
+:100644 100644 c6cdf8f8cb0b30b0dee0e410d8e7ed869517deb8 4515402f378a92fe161514e97f8618a496969b67 M	Jenkinsfile
+commit 14f77ac8b94dd3732aba9a8ac49c2489bbb066c8
+tree ecfd4d9cee273c7fb478e5db8c351faa9c0b4f32
+parent 1b4c8b874fa377c86e25b7a878cde026e6a370c4
+author khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-09 20:53:15 +0700
+committer khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-09 20:53:15 +0700
+
+    add develop
+
+
+:000000 100644 0000000000000000000000000000000000000000 3426a024218591d62f94e72c6628a1b965db92c8 A	test_develop.txt

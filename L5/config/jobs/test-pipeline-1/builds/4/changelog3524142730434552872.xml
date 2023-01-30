@@ -1,0 +1,10 @@
+commit 4538aef4d6c13838efa42b517b3a32a4b4f8ad5e
+tree 041f67aaec88218940bc305e747f715d4e42b624
+parent e85f8ee130d65095b8dd99473d9de1e0a9f2039e
+author khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-09 20:02:23 +0700
+committer khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-09 20:02:23 +0700
+
+    update steps
+
+
+:100644 100644 351780d0cb154f7ddeb3b54decf6f5ac72b32353 4494e660eaddad538af183eab555d6a72167873e M	Jenkinsfile

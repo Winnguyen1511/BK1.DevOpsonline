@@ -1,0 +1,49 @@
+Started by GitHub push by Winnguyen1511
+Checking out git https://github.com/Winnguyen1511/hello-jenkinsfile.git into /var/jenkins_home/workspace/test-pipeline@script/0437fd3a281710a1c58b06a3d65541acafb8b9712783869e712db7924da43925 to read Jenkinsfile
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test-pipeline@script/0437fd3a281710a1c58b06a3d65541acafb8b9712783869e712db7924da43925/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Winnguyen1511/hello-jenkinsfile.git # timeout=10
+Fetching upstream changes from https://github.com/Winnguyen1511/hello-jenkinsfile.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/Winnguyen1511/hello-jenkinsfile.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0b3f7e72661694c1fb81a36cc2090f42a8d1e606 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0b3f7e72661694c1fb81a36cc2090f42a8d1e606 # timeout=10
+Commit message: "update"
+ > git rev-list --no-walk 68bb1bc4091baec85abfb623381737706009ac4c # timeout=10
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: 4: ${env.BUILD_NUMBER} cannot be used as a value directly. Did you mean "${env.BUILD_NUMBER}"? (add quotes) @ line 4, column 24.
+           BUILD_NUMBER = ${env.BUILD_NUMBER}
+                          ^
+
+WorkflowScript: 5: Environment variable values must either be single quoted, double quoted, or function calls. @ line 5, column 19.
+           PROJECT = params.PROJECT
+                     ^
+
+WorkflowScript: 6: Environment variable values must either be single quoted, double quoted, or function calls. @ line 6, column 18.
+           BRANCH = params.BRANCH
+                    ^
+
+3 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1107)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:624)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox$Scope.parse(GroovySandbox.java:163)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:142)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:127)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:563)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:515)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:336)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Finished: FAILURE

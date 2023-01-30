@@ -1,0 +1,116 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>24</string>
+    </parentIds>
+    <id>25</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@324.va_f5d6774f3a_d">
+            <symbol>sshPublisher</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>publishers</string>
+                <list>
+                  <org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation plugin="workflow-cps@3583.v4f58de0d78d5">
+                    <symbol>sshPublisherDesc</symbol>
+                    <arguments class="linked-hash-map">
+                      <entry>
+                        <string>configName</string>
+                        <string>linux-jenkins-slave-1</string>
+                      </entry>
+                      <entry>
+                        <string>transfers</string>
+                        <list>
+                          <org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation>
+                            <symbol>sshTransfer</symbol>
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <string>cleanRemote</string>
+                                <boolean>false</boolean>
+                              </entry>
+                              <entry>
+                                <string>excludes</string>
+                                <string></string>
+                              </entry>
+                              <entry>
+                                <string>execCommand</string>
+                                <string></string>
+                              </entry>
+                              <entry>
+                                <string>execTimeout</string>
+                                <int>120000</int>
+                              </entry>
+                              <entry>
+                                <string>flatten</string>
+                                <boolean>false</boolean>
+                              </entry>
+                              <entry>
+                                <string>makeEmptyDirs</string>
+                                <boolean>false</boolean>
+                              </entry>
+                              <entry>
+                                <string>noDefaultExcludes</string>
+                                <boolean>false</boolean>
+                              </entry>
+                              <entry>
+                                <string>patternSeparator</string>
+                                <string>[, ]+</string>
+                              </entry>
+                              <entry>
+                                <string>remoteDirectory</string>
+                                <string>16_test-pipleline-1_master</string>
+                              </entry>
+                              <entry>
+                                <string>remoteDirectorySDF</string>
+                                <boolean>false</boolean>
+                              </entry>
+                              <entry>
+                                <string>removePrefix</string>
+                                <string></string>
+                              </entry>
+                              <entry>
+                                <string>sourceFiles</string>
+                                <string>**</string>
+                              </entry>
+                            </arguments>
+                            <interpolatedStrings/>
+                          </org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation>
+                        </list>
+                      </entry>
+                      <entry>
+                        <string>usePromotionTimestamp</string>
+                        <boolean>false</boolean>
+                      </entry>
+                      <entry>
+                        <string>useWorkspaceInPromotion</string>
+                        <boolean>false</boolean>
+                      </entry>
+                      <entry>
+                        <string>verbose</string>
+                        <boolean>false</boolean>
+                      </entry>
+                    </arguments>
+                    <interpolatedStrings/>
+                  </org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation>
+                </list>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1673599364427</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

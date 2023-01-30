@@ -1,0 +1,19 @@
+Started by user [8mha:////4AUwrXJWJRp7nay7hnMSccy+E3+CSVJ7RfAJfKJ+YLWFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/jenkins_home/workspace/hello-jenkins-test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/hello-jenkins-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Winnguyen1511/hello-jenkins-test.git # timeout=10
+Fetching upstream changes from https://github.com/Winnguyen1511/hello-jenkins-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/Winnguyen1511/hello-jenkins-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 66c8202979fbe70099744331c7882db796700b5d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 66c8202979fbe70099744331c7882db796700b5d # timeout=10
+Commit message: "update"
+ > git rev-list --no-walk 66c8202979fbe70099744331c7882db796700b5d # timeout=10
+Finished: SUCCESS

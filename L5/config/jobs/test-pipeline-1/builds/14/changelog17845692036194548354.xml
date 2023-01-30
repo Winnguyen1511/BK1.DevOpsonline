@@ -1,0 +1,10 @@
+commit 025999b6a5558ca4c5b55b4ff75557998a782618
+tree 4e6cf267da4c2b2c704bde9a2d660804bdc1bcaa
+parent 7c47e3b6a410d64fef489545883e2eb0b7da5800
+author khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-13 15:33:49 +0700
+committer khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-13 15:33:49 +0700
+
+    ssh publish
+
+
+:100644 100644 f3d2175d45cebffcdd60f33d54831d9a4409fb36 972a2dc4df788a496326f7359d8e296c9ff7c39e M	Jenkinsfile

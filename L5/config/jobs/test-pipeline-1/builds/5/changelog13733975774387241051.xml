@@ -1,0 +1,10 @@
+commit 1b4c8b874fa377c86e25b7a878cde026e6a370c4
+tree 386b995800578d35de0dda507655aff93a79d23a
+parent 4538aef4d6c13838efa42b517b3a32a4b4f8ad5e
+author khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-09 20:48:48 +0700
+committer khoanguyen <khoanguyen1507vn@gmail.com> 2023-01-09 20:48:48 +0700
+
+    add directory
+
+
+:100644 100644 4494e660eaddad538af183eab555d6a72167873e c6cdf8f8cb0b30b0dee0e410d8e7ed869517deb8 M	Jenkinsfile

@@ -1,0 +1,10 @@
+commit 0b3f7e72661694c1fb81a36cc2090f42a8d1e606
+tree ddfd1b7eabe5764976eaacfa2ab874925973bfb1
+parent 68bb1bc4091baec85abfb623381737706009ac4c
+author khoanguyen <khoanguyen1507vn@gmail.com> 2022-12-28 17:14:59 +0700
+committer khoanguyen <khoanguyen1507vn@gmail.com> 2022-12-28 17:14:59 +0700
+
+    update
+
+
+:100644 100644 93cc622cac5d155a6cc4a813e07a41f28ea7d090 6296236ab32a46bb908d497daaa1f11a54ea8a7d M	Jenkinsfile

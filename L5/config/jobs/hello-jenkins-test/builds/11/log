@@ -1,0 +1,22 @@
+Started by user [8mha:////4AUwrXJWJRp7nay7hnMSccy+E3+CSVJ7RfAJfKJ+YLWFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4CkdndbI8aDpS8OTDIYOqX/p+qeuVo239mr+1QmGKZoVAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/eT83ILSktQifaCVpRW6SaWZOSm6xTmJZakAFd8O3NAAAAA=[0mlinux-build-slave in workspace /root/jenkins_workspace/workspace/hello-jenkins-test
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Winnguyen1511/hello-jenkins-test.git
+ > git init /root/jenkins_workspace/workspace/hello-jenkins-test # timeout=10
+Fetching upstream changes from https://github.com/Winnguyen1511/hello-jenkins-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/Winnguyen1511/hello-jenkins-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Winnguyen1511/hello-jenkins-test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 66c8202979fbe70099744331c7882db796700b5d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 66c8202979fbe70099744331c7882db796700b5d # timeout=10
+Commit message: "update"
+ > git rev-list --no-walk 66c8202979fbe70099744331c7882db796700b5d # timeout=10
+Finished: SUCCESS
